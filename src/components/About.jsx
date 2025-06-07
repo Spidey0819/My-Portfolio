@@ -22,7 +22,7 @@ const About = () => {
                             <div className="bg-black/50 p-6 rounded-lg border border-[#e62429]/30">
                                 <h3 className="text-xl font-bold text-white">Dalhousie University</h3>
                                 <p className="text-[#fdd835]">Master of Applied Computer Science</p>
-                                <p className="text-gray-400">Halifax, NS, Canada | Expected: Winter 2025</p>
+                                <p className="text-gray-400">Halifax, NS, Canada | Expected: January 2026</p>
                                 <p className="text-gray-300 mt-2">
                                     Specializing in: Advanced Software Development, Deep Learning Applications,
                                     Database Management Warehousing and Analytics, Advanced Cloud Computing
@@ -33,6 +33,31 @@ const About = () => {
                         {/* Experience Section */}
                         <div className="mt-8">
                             <h2 className="text-2xl font-bangers text-[#fdd835] mb-4">Mission Experience</h2>
+
+                            {/* Triz Innovation Experience */}
+                            <div className="bg-black/50 p-6 rounded-lg border border-[#e62429]/30 mb-6">
+                                <h3 className="text-xl font-bold text-white">
+                                    Triz Innovation
+                                </h3>
+                                <p className="text-[#fdd835]">Machine Learning Intern</p>
+                                <p className="text-gray-400">Surat, India | Dec 2023 – Apr 2024</p>
+                                <ul className="text-gray-300 mt-3 space-y-2">
+                                    <li className="flex items-start">
+                                        <span className="text-[#e62429] mr-2">•</span>
+                                        Designed and implemented large language model (LLM) fine-tuning pipeline using Transformers and PyTorch that improved model accuracy by 32% for domain-specific text generation tasks
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="text-[#e62429] mr-2">•</span>
+                                        Developed Retrieval-Augmented Generation (RAG) system using Vector databases and OpenAI APIs that enhanced response relevance by 45% for customer support automation
+                                    </li>
+                                    <li className="flex items-start">
+                                        <span className="text-[#e62429] mr-2">•</span>
+                                        Built MLOps infrastructure with MLflow and Docker for model versioning and deployment, enabling seamless A/B testing across 2 different LLM variants
+                                    </li>
+                                </ul>
+                            </div>
+
+                            {/* BISAG Experience */}
                             <div className="bg-black/50 p-6 rounded-lg border border-[#e62429]/30">
                                 <h3 className="text-xl font-bold text-white">
                                     Bhaskaracharya Institute for Space Applications and Geoinformatics
@@ -50,7 +75,7 @@ const About = () => {
                                     </li>
                                     <li className="flex items-start">
                                         <span className="text-[#e62429] mr-2">•</span>
-                                        Created visualization dashboards using Tailwind CSS and ReactJs that decreased system monitoring time by 40% for a team of 6 developers
+                                        Created visualization dashboards using Tailwind CSS and Angular that decreased system monitoring time by 40% for a team of 6 developers
                                     </li>
                                     <li className="flex items-start">
                                         <span className="text-[#e62429] mr-2">•</span>
